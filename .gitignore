@@ -1,0 +1,4 @@
+*.iml
+__pycache__
+env.sh
+**logfile**

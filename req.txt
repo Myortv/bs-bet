@@ -1,0 +1,10 @@
+trio
+aiohttp
+aio-pika
+pytest
+httpx
+uvicorn
+fastapi
+pydantic-settings
+asyncpg
+asyncache
