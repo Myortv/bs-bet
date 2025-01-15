@@ -6,3 +6,6 @@ create table bet (
     bet_amount numeric(12, 2),
     status bet_status not null default 'pending'::bet_status
 );
+
+
+create index idx_bet_event_id on bet using (event_id);
